@@ -62,7 +62,7 @@ namespace HydraBot
                     await channel.SendMessageAsync($"Novo repack disponível: {repack.Title} - {repack.Magnet}");
                 }
 
-                // Salvar os novos repacks no banco de dados
+                // Salvar os novos repacks no banco de dados 
                 _databaseService.SaveRepacks(newRepacks);
             }
         }

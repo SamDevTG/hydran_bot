@@ -60,8 +60,6 @@ namespace HydraBot.Services
 
         private async Task<TorrentDetails> GetTorrentDetails(string link)
         {
-            // Lógica para obter detalhes do torrent usando o link
-            // Implemente esta lógica de acordo com a estrutura da página 1337x
             return new TorrentDetails();
         }
     }

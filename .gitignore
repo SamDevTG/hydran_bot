@@ -1,8 +1,6 @@
-# Arquivos de compilação C# gerados
 bin/
 obj/
 
-# Arquivos temporários gerados pelo Visual Studio
 .vs/
 *.user
 *.suo
@@ -10,7 +8,6 @@ obj/
 *.crash
 *.pidb
 
-# Arquivos de log e dump de erro
 *.log
 *.vspscc
 *.vssscc

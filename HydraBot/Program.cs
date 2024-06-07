@@ -51,7 +51,6 @@ namespace HydraBot
 
         private async Task HandleCommandAsync(SocketMessage message)
         {
-            // Lógica para lidar com comandos do bot
         }
     }
 }

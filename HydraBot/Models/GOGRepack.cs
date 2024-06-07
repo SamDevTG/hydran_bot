@@ -1,4 +1,4 @@
-namespace DiscordBot.Models
+namespace HydraBot.Models
 {
     public class GOGGame
     {

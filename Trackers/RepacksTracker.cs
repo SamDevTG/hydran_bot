@@ -8,6 +8,7 @@ using HydraBot.Models;
 using HydraBot.Services;
 
 namespace HydraBot.Trackers
+
 {
     public class RepacksTracker
     {
@@ -52,7 +53,6 @@ namespace HydraBot.Trackers
         private async Task<IEnumerable<Repack>> GetNewRepacks(IEnumerable<Repack> existingRepacks)
         {
             List<Repack> newRepacks = new List<Repack>();
-            // Lógica para obter novos repacks dos trackers de repack do Hydra
             return newRepacks;
         }
     }

@@ -61,10 +61,8 @@ namespace HydraBot.Services
 
         private async Task<IEnumerable<Repack>> GetNewRepacks(IEnumerable<Repack> existingRepacks)
         {
-            // Lógica para obter novos repacks dos sites e comparar com os existentes
-            // Por exemplo, pode-se usar a lógica atual do Hydra para isso
 
-            return new List<Repack>(); // Retorna a lista de novos repacks encontrados
+            return new List<Repack>();
         }
     }
 }

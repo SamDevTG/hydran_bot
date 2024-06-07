@@ -1,4 +1,3 @@
-// Repack.cs
 namespace HydraBot.Models
 {
     public class Repack

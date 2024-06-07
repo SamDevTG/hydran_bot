@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using System.Data.SQLite;
 using Dapper;
+using HydraBot.Models;
 
-namespace DiscordBot
+namespace HydraBot.Services
 {
     public class DatabaseService
     {
@@ -24,13 +25,5 @@ namespace DiscordBot
             using var connection = new SQLiteConnection(_connectionString);
             connection.Execute("INSERT INTO repacks (Title, Magnet, UploadDate, Repacker) VALUES (@Title, @Magnet, @UploadDate, @Repacker)", repacks);
         }
-    }
-
-    public class Repack
-    {
-        public string Title { get; set; }
-        public string Magnet { get; set; }
-        public DateTime UploadDate { get; set; }
-        public string Repacker { get; set; }
     }
 }
